@@ -45,8 +45,8 @@ name: Check for New MegaLinter Version
 
 on:
   schedule:
-    # Run daily at 00:00 UTC
-    - cron: "0 0 * * *"
+    # Run monthly at 00:00 UTC
+    - cron: "0 0 1 * *"
   workflow_dispatch:
 
 permissions:
