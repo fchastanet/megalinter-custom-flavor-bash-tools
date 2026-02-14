@@ -1,0 +1,27 @@
+# MegaLinter Custom Flavor configuration
+# If you update it manually, run `npx mega-linter-runner --custom-flavor-setup` to propagate updates.
+
+label: bash-tools
+linters:
+  - ACTION_ACTIONLINT
+  - BASH_EXEC
+  - BASH_SHELLCHECK
+  - BASH_SHFMT
+  - COPYPASTE_JSCPD
+  - EDITORCONFIG_EDITORCONFIG_CHECKER
+  - ENV_DOTENV_LINTER
+  - HTML_DJLINT
+  - HTML_HTMLHINT
+  - JSON_JSONLINT
+  - JSON_PRETTIER
+  - MARKDOWN_MARKDOWNLINT
+  - REPOSITORY_GITLEAKS
+  - REPOSITORY_GIT_DIFF
+  - REPOSITORY_GRYPE
+  - REPOSITORY_SECRETLINT
+  - REPOSITORY_SYFT
+  - REPOSITORY_TRIVY_SBOM
+  - REPOSITORY_TRUFFLEHOG
+  - SPELL_LYCHEE
+  - YAML_PRETTIER
+  - YAML_YAMLLINT
